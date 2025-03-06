@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Color Suggester</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Find Your Perfect Hair Color</h2>
+
+        <label for="skin-tone">Select Your Skin Tone:</label>
+        <select id="skin-tone">
+            <option value="fair">Fair</option>
+            <option value="medium">Medium</option>
+            <option value="dark">Dark</option>
+        </select>
+
+        <label for="hair-type">Select Your Hair Type:</label>
+        <select id="hair-type">
+            <option value="straight">Straight</option>
+            <option value="wavy">Wavy</option>
+            <option value="curly">Curly</option>
+        </select>
+
+        <label for="hair-style">Select Your Hair Style:</label>
+        <select id="hair-style">
+            <option value="short">Short</option>
+            <option value="medium-length">Medium-Length</option>
+            <option value="long">Long</option>
+            <option value="layered">Layered</option>
+            <option value="bob">Bob</option>
+        </select>
+
+        <label for="profession">Select Your Profession:</label>
+        <select id="profession">
+            <option value="corporate">Corporate/Professional</option>
+            <option value="creative">Creative/Artist</option>
+            <option value="student">Student</option>
+        </select>
+
+        <button onclick="suggestColor()">Get Suggestion</button>
+
+        <p class="result" id="suggested-color"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
