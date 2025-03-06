@@ -20,7 +20,7 @@ A web-based tool that suggests the perfect **hair color** based on your **skin t
 ## 📖 How to Use
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/Hair-Color-Suggester.git
+   git clone https://github.com/SusanWthorpe/Hair-Color-Suggester.git
    ```
 2. **Open `index.html` in your browser.**
 3. **Select your details (Skin tone, Hair type, Hair style, Profession).**
